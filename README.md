@@ -8,7 +8,7 @@ Analysis of world oil production from 1900 to 2024 based on Energy Institute - S
 [Data Cleaning](#data-cleaning)
 [Questions for Data Analysis](#questions-for-data-analysis)
 [Dashboard](#dashboard)
-[DAX](#dax-code)
+[DAX](#dax)
 [Recomendations](#recommendations)
 
 ### Problem Statement
@@ -63,10 +63,18 @@ Find Original Data Source Here: [Oil Production dataset](https://github.com/eami
 
 ### Dashboard
 <img width="1276" height="715" alt="Dashboard PowerBi" src="https://github.com/user-attachments/assets/9057b0db-75d5-49dd-82c3-e284fc9bb9ea" />
-[Project file in pbix format Here]()
-
+[Project file in pbix format Here](https://github.com/eamironenko/World-Oil-Production-PowerBI/blob/main/Dashboard%20Oil%20Production%20by%20countries.pbix)
 
 ### DAX
+Total Production: Total Production = SUM('oil-production-by-country1'[Oil])*1000;
+
+Country counts: Country counts = CALCULATE(DISTINCTCOUNT('oil-production-by-country1'[Country]), FILTER('oil-production-by-country1', 'oil-production-by-country1'[Oil]>0));
+
+Average Production: Avg Production = DIVIDE('oil-production-by-country1'[Total Production],'oil-production-by-country1'[Country counts]);
+
+Top 10 Producers: Top10 Production = CALCULATE([Total Production], TOPN(10, VALUES('oil-production-by-country1'[Country]), [Total Production],DESC))
+
+Rest World PRoduction: Rest Production = 'oil-production-by-country1'[Total Production]-[Top10 Production]
 
 ### Recommendations
 
