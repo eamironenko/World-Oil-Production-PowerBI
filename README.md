@@ -9,7 +9,7 @@ Analysis of world oil production from 1900 to 2024 based on Energy Institute - S
 [Questions for Data Analysis](#questions-for-data-analysis)
 [Dashboard](#dashboard)
 [DAX](#dax)
-[Recomendations](#recommendations)
+[Recomendations](#Conclusion)
 
 ### Problem Statement
 Oil remains one of the most important energy resources and a key driver of the global economy. Understanding long-term trends in oil production helps identify shifts in energy markets, changes in geopolitical influence, and the emergence of new leading producers. The objective is to explore how oil production has evolved over time, identify the largest producing countries, evaluate production concentration among major producers. 
@@ -76,7 +76,32 @@ Top 10 Producers: Top10 Production = CALCULATE([Total Production], TOPN(10, VALU
 
 Rest World PRoduction: Rest Production = 'oil-production-by-country1'[Total Production]-[Top10 Production]
 
-### Recommendations
+### Conclusion
+1. Long-Term Growth in Oil Production: The analysis reveals a strong long-term upward trend in global oil production between 1900 and 2024. Despite periods of economic downturns, geopolitical conflicts, and market volatility, global production has increased substantially over the last century, reflecting growing energy demand driven by industrialization, population growth, and economic development.
+
+2. Leading Oil-Producing Countries: The largest contributors to global oil production are concentrated among a relatively small number of countries. The top producers identified in the dataset include:
+  - United States
+  - Saudi Arabia
+  - Russia and CIS countries (aggregated regional group)
+  - Iran
+  - China
+
+  These countries have consistently played a significant role in shaping global oil supply and energy markets.
+
+3. Production Concentration: Oil production remains highly concentrated among the world's leading producers. The analysis shows that the top 10 producing countries account for approximately 30% of total global oil production, highlighting the strategic importance of a relatively small group of countries in meeting global energy demand.
+
+4. Geographic Distribution of Production: The highest levels of production are concentrated in:
+ - North America
+ - The Middle East
+ - Eurasia
+
+ These regions contain many of the world's largest conventional oil reserves and continue to dominate global production.
+
+5. Strategic Implications: The concentration of oil production among a limited number of countries suggests that global energy markets remain sensitive to geopolitical developments, production policies, and economic conditions within major producing regions. Changes in production levels among these key producers can have a significant impact on global supply, prices, and energy security.
+
+Conclusion
+
+Overall, the analysis demonstrates sustained growth in global oil production over the past century, supported by increasing energy demand and technological advancements. While production is geographically diversified, a relatively small group of countries continues to dominate global output, reinforcing their strategic importance in the global energy sector.
 
 
 
