@@ -7,7 +7,9 @@ Analysis of world oil production from 1900 to 2024 based on Energy Institute - S
 [Tools](#tools)
 [Data Cleaning](#data-cleaning)
 [Questions for Data Analysis](#questions-for-data-analysis)
-
+[Dashboard](#dashboard)
+[DAX](#dax-code)
+[Recomendations](#recommendations)
 
 ### Problem Statement
 Oil remains one of the most important energy resources and a key driver of the global economy. Understanding long-term trends in oil production helps identify shifts in energy markets, changes in geopolitical influence, and the emergence of new leading producers. The objective is to explore how oil production has evolved over time, identify the largest producing countries, evaluate production concentration among major producers. 
@@ -46,7 +48,7 @@ Find Original Data Source Here: [Oil Production dataset](https://github.com/eami
 - Power Query – I used Power Query for Data Cleaning
 - Excel – I used Excel for Data Analysis
   - Pivot Table – for creating the Dashboard and Visualizations
-    
+
 ### Data Cleaning
 - Data loading and inspection
 - Handling errors, missing values
@@ -58,6 +60,13 @@ Find Original Data Source Here: [Oil Production dataset](https://github.com/eami
 - How concentrated is global oil production among the top producing countries?
 - How have production rankings changed throughout different historical periods?
 - What percentage of global production is contributed by the top 10 producing countries?
+
+### Dashboard
+
+### DAX
+
+### Recommendations
+
 
 
 
