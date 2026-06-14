@@ -15,9 +15,15 @@ The dashboard should help identify:
 - What percentage of global production is contributed by the top 10 producing countries?
 
 ### Data Source
-This dataset from the Our World in Data website, downloaded in CSV format, contains Entry and Code columns for country and region identification. The "Oil" column contains oil production quantity. 
+This dataset from the Our World in Data website, downloaded in CSV format. The original producer of data is Energy Institute - Statistical Review of World Energy (2025), The Shift Data Portal (2019). But data on Our World in Data has been collected and compiled by others.
+
+The file contains Entry and Code columns for country and region identification. The "Oil" column contains oil production quantity.
+
 Oil value includes crude oil, shale oil, oil sands, condensates (lease condensate or gas condensates that require further refining) and NGLs (natural gas liquids - ethane, LPG and naphtha separated from the production of natural gas). Excludes liquid fuels from other sources such as biofuels and synthetic derivatives of coal and natural gas. This also excludes liquid fuel adjustment factors such as refinery processing gain.
-Oil production is approximately converted from million tonnes to energy using a standard average oil-equivalent conversion factor of 41.868 petajoules per million tonnes. We then convert 1 petajoule to 0.278 terawatt-hours.
+
+Oil production is approximately converted from million tonnes to energy using a standard average oil-equivalent conversion factor of 41.868 petajoules per million tonnes. Find Original Data Source Here: [Oil Production dataset]
+
+
 
 
 
