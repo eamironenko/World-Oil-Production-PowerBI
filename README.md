@@ -4,6 +4,9 @@ Analysis of world oil production from 1900 to 2024 based on Energy Institute - S
 ## Table of Content
 [Problem Statement](#problem-statement)
 [Data Source](#data-source)
+[Tools](#tools)
+[Data Cleaning](#data-cleaning)
+[Questions for Data Analysis](#questions-for-data-analysis)
 
 
 ### Problem Statement
@@ -37,11 +40,26 @@ The metric excludes:
 - Refinery processing gains and other liquid fuel adjustment factors
 
 Oil production values are converted from million tonnes into energy units using a standard oil-equivalent conversion factor of 41.868 petajoules per million tonnes.
-
-For the purpose of this analysis, aggregated regions and economic groups (e.g., World, OECD, OPEC, EU28, CIS, and other regional totals) were excluded to focus exclusively on country-level production trends and comparisons
 Find Original Data Source Here: [Oil Production dataset](https://github.com/eamironenko/World-Oil-Production-PowerBI/blob/main/oil-production-by-country.csv)
 
 ### Tools
+- Power Query – I used Power Query for Data Cleaning
+- Excel – I used Excel for Data Analysis
+  - Pivot Table – for creating the Dashboard and Visualizations
+  - 
+### Data Cleaning
+- Data loading and inspection
+- Handling errors, missing values
+- Data cleaning and formatting.
+- For the purpose of this analysis, aggregated regions and economic groups (e.g., World, OECD, OPEC, EU28, CIS, and other regional totals) were excluded to focus exclusively on country-level production trends and comparisonsю
+- The excel file after the data cleaning & preparation process can be downloaded here [Clean Dataset Here]()
+
+### Questions for Data Analysis
+- How concentrated is global oil production among the top producing countries?
+- How have production rankings changed throughout different historical periods?
+- What percentage of global production is contributed by the top 10 producing countries?
+
+
 
 
 
