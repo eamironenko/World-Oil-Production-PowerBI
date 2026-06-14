@@ -54,7 +54,7 @@ Find Original Data Source Here: [Oil Production dataset](https://github.com/eami
 - Handling errors, missing values
 - Data cleaning and formatting.
 - For the purpose of this analysis, aggregated regions and economic groups (e.g., World, OECD, OPEC, EU28, CIS, and other regional totals) were excluded to focus exclusively on country-level production trends and comparisonsю
-- The excel file after the data cleaning & preparation process can be downloaded here [Clean Dataset Here]()
+- The excel file after the data cleaning & preparation process can be downloaded here [Clean Dataset Here](https://github.com/eamironenko/World-Oil-Production-PowerBI/blob/main/Oil_production_countries.xlsx)
 
 ### Questions for Data Analysis
 - How concentrated is global oil production among the top producing countries?
@@ -62,6 +62,9 @@ Find Original Data Source Here: [Oil Production dataset](https://github.com/eami
 - What percentage of global production is contributed by the top 10 producing countries?
 
 ### Dashboard
+<img width="1276" height="715" alt="Dashboard PowerBi" src="https://github.com/user-attachments/assets/9057b0db-75d5-49dd-82c3-e284fc9bb9ea" />
+[Project file in pbix format Here]()
+
 
 ### DAX
 
